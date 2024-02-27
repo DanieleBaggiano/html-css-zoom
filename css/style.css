@@ -4,3 +4,46 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+/* MAIN */
+.container {
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+}
+
+.area.foto {
+    height: calc(100% - 120px);
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    row-gap: 10px;
+    column-gap: 5px;
+}
+
+.monti{
+    position: relative;
+    display: inline-block;
+} 
+
+img {
+    max-height: 81px;
+}    
+
+span {
+    color: white;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 5px;
+    font-size: .7rem;
+}
+
+.area.icone {
+    height: 120px;
+    width: 100%;
+    background-color: rgb(34 34 34);
+}
