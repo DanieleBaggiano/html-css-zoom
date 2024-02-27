@@ -13,7 +13,7 @@
 }
 
 .area.foto {
-    height: calc(100% - 120px);
+    height: calc(100% - 60px);
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -43,7 +43,76 @@ span {
 }
 
 .area.icone {
-    height: 120px;
+    height: 60px;
     width: 100%;
     background-color: rgb(34 34 34);
+    display: flex;
+}
+
+.icone-sinistra {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* debug */
+    /* border: 1px solid white; */
+}
+
+.icone-centro {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* debug */
+    /* border: 1px solid white; */
+}
+
+.fa-user-group {
+    margin-left: 29px;
+}
+
+.fa-share-from-square {
+    color: rgb(20, 234, 20);
+    margin-left: 15px;
+}
+
+.fa-table-cells-large {
+    margin-left: 22px;
+}
+
+.fa-solid {
+    color: white;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    font-size: 1.1rem;
+}
+
+ul {
+    text-decoration: none;
+    list-style: none;
+    padding-left: 15px;
+}
+
+li {
+    color: white;
+}
+
+.scritte-icone {
+    font-size: .7rem;
+}
+
+.fa-angle-up {
+    font-size: .5rem;
+}
+
+.icone-destra {
+    width: 20%;
+    height: 100%;
+
+    /* debug */
+    /* border: 1px solid white; */
 }
