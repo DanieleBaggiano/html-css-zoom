@@ -21,6 +21,7 @@
     justify-content: center;
     row-gap: 10px;
     column-gap: 5px;
+    overflow-y: auto;
 }
 
 .monti{
@@ -29,7 +30,7 @@
 } 
 
 img {
-    max-height: 81px;
+    max-height: 115px;
 }    
 
 span {
